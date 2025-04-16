@@ -1,17 +1,15 @@
-# Connecting a new source to DWH · Handmade Marketplace
+## Connecting a Source to DWH of Handmade Marketplace
 
-### Project Overview
+### Task  
+Integrate a newly acquired data source into an existing PostgreSQL-based data warehouse. Break down incoming data into facts and attributes following Kimball methodology and SCD1. Build a customer-focused Data Mart on request, implement incremental updates with date checks to support loyalty programs, user interest analysis, product recommendations, and promo planning.
 
-A marketplace for handmade goods has purchased a competing website. The new source was integrated into the DWH update script, the new data was broken down into facts and attributes. Then, on request of analytics team, a Data Mart based on PostgreSQL was built with a report on all marketplace customers. An incremental update script with date verification was created for the Data Mart. The Data Mart will allow implementing a loyalty program, studying user interests, making the product recommendation system more relevant, and adjusting the marketing plan for promotions.
+### Skills  
+Data integration using Kimball and SCD1, PostgreSQL Data Mart development, incremental data updates with date validation, designing customer-focused analytics infrastructure.
 
-### Key Skills
+## Интеграция источника в DWH маркетплейса товаров ручной работы
 
-Integration of a new data source into DWH according to Kimball methodology and SCD1, building a Data Mart on demand based on PostgreSQL, ensuring incremental updates of the data mart.
+### Задача  
+Интегрировать новый источник данных в существующее хранилище данных на PostgreSQL. Разложить данные на факты и атрибуты в соответствии с методологией Кимбалла и SCD1. Построить витрину данных по заказу аналитиков, реализовать инкрементальное обновление с проверкой даты для поддержки программы лояльности, анализа интересов пользователей, персонализации рекомендаций и планирования акций.
 
-### Описание проекта
-
-Маркетплейс товаров ручной работы приобрел конкурирующий сайт. Новый источник интегрирован в скрипт обновления DWH маркетплейса на базе PostgreSQL, новые данные разложены на факты и атрибуты. Затем, по запросу аналитиков, построена витрина данных с отчетом по всем заказчикам маркетплейса. Для витрины создан скрипт инкрементального обновления с проверкой даты. Витрина позволит внедрить программу лояльности, изучить интересы пользователей, сделать более релевантной систему рекомендаций товаров и скорректировать маркетинговый план по акциям.
-
-### Ключевые навыки
-
-Интеграция нового источника в DWH в соответствии с моделью по Кимбаллу и SCD1, построение витрины данных по запросу на базе PostgreSQL, обеспечение инкрементального обновления витрины.
+### Навыки  
+Интеграция источников данных по Кимбаллу и SCD1, построение витрины данных на PostgreSQL, реализация инкрементальных загрузок данных, проектирование аналитической инфраструктуры для клиентской аналитики.
