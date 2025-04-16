@@ -1,15 +1,15 @@
-## Connecting a Source to DWH of Handmade Marketplace
+## SQL Scripting for DWH Integration
 
 ### Task  
-Integrate a newly acquired data source into an existing PostgreSQL-based data warehouse. Break down incoming data into facts and attributes following Kimball methodology and SCD1. Build a customer-focused Data Mart on request, implement incremental updates with date checks to support loyalty programs, user interest analysis, product recommendations, and promo planning.
+Prepare and implement SQL scripts to integrate a newly acquired website’s data into the PostgreSQL-based DWH for the handmade marketplace. Break down the new data into facts and attributes following Kimball methodology and SCD1. Develop a customer Data Mart with an incremental update mechanism using date checks to support analytics and marketing needs.
 
 ### Skills  
-Data integration using Kimball and SCD1, PostgreSQL Data Mart development, incremental data updates with date validation, designing customer-focused analytics infrastructure.
+SQL scripting for DWH integration, dimensional modeling (Kimball, SCD1), building Data Mart with PostgreSQL, writing incremental update scripts.
 
-## Интеграция источника в DWH маркетплейса товаров ручной работы
+## Подготовка SQL-скриптов для интеграции в DWH
 
 ### Задача  
-Интегрировать новый источник данных в существующее хранилище данных на PostgreSQL. Разложить данные на факты и атрибуты в соответствии с методологией Кимбалла и SCD1. Построить витрину данных по заказу аналитиков, реализовать инкрементальное обновление с проверкой даты для поддержки программы лояльности, анализа интересов пользователей, персонализации рекомендаций и планирования акций.
+Разработать и реализовать SQL-скрипты для интеграции данных из приобретённого сайта в DWH маркетплейса ручной работы на базе PostgreSQL. Разложить данные на факты и атрибуты по методологии Кимбалла и SCD1. Построить витрину данных с инкрементальным обновлением на основе проверки даты для поддержки аналитики и маркетинга.
 
 ### Навыки  
-Интеграция источников данных по Кимбаллу и SCD1, построение витрины данных на PostgreSQL, реализация инкрементальных загрузок данных, проектирование аналитической инфраструктуры для клиентской аналитики.
+Написание SQL-скриптов для интеграции источника в DWH, моделирование измерений и фактов (по Кимбаллу, SCD1), создание витрины данных в PostgreSQL, написание скриптов инкрементального обновления.
